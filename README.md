@@ -13,6 +13,6 @@ $ ./target/release/lisp-by-rust
 or
 $ ./target/release/lisp-by-rust examples/hoge.text
 
-// Test
+// Test(cargo)
 cargo test
 ```
