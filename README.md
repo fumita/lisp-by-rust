@@ -12,4 +12,7 @@ $ cargo build --release
 $ ./target/release/lisp-by-rust
 or
 $ ./target/release/lisp-by-rust examples/hoge.text
+
+// Test
+cargo test
 ```
