@@ -1,6 +1,6 @@
 [package]
 name = "lisp-by-rust"
-version = "0.1.0"
+version = "0.0.9"
 authors = ["maikiichan <maikiilion@gmail.com>"]
 edition = "2018"
 license = "MIT"

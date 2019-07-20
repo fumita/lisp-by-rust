@@ -79,7 +79,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "lisp-by-rust"
-version = "0.1.0"
+version = "0.0.9"
 dependencies = [
  "codespan 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
