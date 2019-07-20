@@ -23,7 +23,7 @@ fn main() {
 
 fn read() -> ast::Expr {
     let mut buff = String::new();
-    print!("\u{1F3CE}  > ");
+    print!("\u{1F9D9}  > ");
     std::io::stdout().flush().unwrap();
     std::io::stdin().read_line(&mut buff).unwrap();
     parser::parse(&buff)
