@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # This script takes care of testing your crate
 
 set -ex
@@ -13,9 +14,6 @@ main() {
 
     cross test --target $TARGET
     cross test --target $TARGET --release
-
-    cross run --target $TARGET
-    cross run --target $TARGET --release
 }
 
 # we don't run the "test phase" when doing deploys
