@@ -17,4 +17,4 @@ travis-ci = { repository = "fumita/lisp-by-rust" }
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-codespan = "0.3.0"
+codespan = "^0.3.0"
