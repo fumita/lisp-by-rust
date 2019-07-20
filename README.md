@@ -1,4 +1,7 @@
 # Lisp interpreter implemented by Rust
+[![Build Status](https://travis-ci.org/fumita/lisp-by-rust.svg?branch=master)](https://travis-ci.org/fumita/lisp-by-rust)
+[![Build status](https://ci.appveyor.com/api/projects/status/36p1bek42d48k70y?svg=true)](https://ci.appveyor.com/project/maikiichan/lisp-by-rust)
+
 
 ```
 // Clone
