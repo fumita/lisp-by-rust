@@ -3,6 +3,15 @@ name = "lisp-by-rust"
 version = "0.1.0"
 authors = ["maikiichan <maikiilion@gmail.com>"]
 edition = "2018"
+license = "MIT"
+description = "Simple rust implement by Rust"
+readme = "README.md"
+repository = "https://github.com/fumita/lisp-by-rust"
+keywords = ["Lisp"]
+
+[badges]
+appveyor = { repository = "fumita/lisp-by-rust" }
+travis-ci = { repository = "fumita/lisp-by-rust" }
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
