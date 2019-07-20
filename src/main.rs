@@ -31,7 +31,7 @@ fn read() -> ast::Expr {
 
 fn print(result: eval::EvalResult) {
     match result {
-        Ok(value) => println!(" ~> {}", value),
+        Ok(value) => println!(" => {}", value),
         Err(error) => println!(" !! {}", error),
     }
 }
