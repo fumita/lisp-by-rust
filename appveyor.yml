@@ -9,18 +9,18 @@ environment:
     - CHANNEL: nightly
       TARGET: x86_64-pc-windows-msvc
 
-  matrix:
-    allow_failures:
-      - channel: nightly
+matrix:
+  allow_failures:
+    - channel: nightly
 
-  install:
-    - appveyor DownloadFile https://win.rustup.rs/ -FileName rustup-init.exe
-    - rustup-init -yv --default-toolchain %CHANNEL% --default-host %TARGET%
-    - set PATH=%PATH%;%USERPROFILE%\.cargo\bin
-    - rustc -yV
-    - cargo -yV
+install:
+  - appveyor DownloadFile https://win.rustup.rs/ -FileName rustup-init.exe
+  - rustup-init -yv --default-toolchain %CHANNEL% --default-host %TARGET%
+  - set PATH=%PATH%;%USERPROFILE%\.cargo\bin
+  - rustc -yV
+  - cargo -yV
 
-  build: false
+build: false
 
-  test_script:
-    - cargo tset --verbose
+test_script:
+  - cargo tset --verbose
