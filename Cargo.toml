@@ -8,6 +8,7 @@ description = "Simple rust implement by Rust"
 readme = "README.md"
 repository = "https://github.com/fumita/lisp-by-rust"
 keywords = ["Lisp"]
+exclude = [".idea/*"]
 
 [badges]
 appveyor = { repository = "fumita/lisp-by-rust" }
