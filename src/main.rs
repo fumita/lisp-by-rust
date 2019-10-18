@@ -6,6 +6,7 @@ mod parser;
 use std::fs;
 use std::io::prelude::*;
 
+// add comment
 fn main() {
     let args = std::env::args();
     if args.len() > 1 {
